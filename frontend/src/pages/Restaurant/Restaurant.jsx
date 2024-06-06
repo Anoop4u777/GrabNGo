@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Restaurant.css'
-import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
-import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
+import RestaurantDisplay from '../../components/RestaurantDisplay/RestaurantDisplay'
 
 
 const Restaurant = () => {
@@ -10,8 +9,7 @@ const Restaurant = () => {
 
   return (
     <div>
-      <ExploreMenu category={category} setCategory={setCategory}/>
-      <FoodDisplay category={category}/>
+      <RestaurantDisplay />
     </div>
   )
 }

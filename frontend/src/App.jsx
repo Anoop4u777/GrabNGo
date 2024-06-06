@@ -7,6 +7,7 @@ import Restaurant from './pages/Restaurant/Restaurant.jsx'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import LoginPopup from './components/LoginPopup/LoginPopup.jsx'
+import RestaurantDetail from './components/RestaurantDetail/RestaurantDetail.jsx'
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/restaurant' element={<Restaurant />} />
+          <Route path="/restaurant/:id" element={<RestaurantDetail />} />
         </Routes>
       </div>
       <Footer />

@@ -1,0 +1,16 @@
+.rest-display {
+    margin-top: 30px;
+}
+
+.rest-display h2 {
+    font-size: max(1.8vw, 24px);
+    font-weight: 600;   
+}
+
+.rest-display-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}

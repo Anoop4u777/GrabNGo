@@ -1,0 +1,22 @@
+.rest-detail {
+    margin: 30px 30px;
+}
+
+.rest-detail h2 {
+    margin-bottom: 30px;
+}
+
+.rest-detail img {
+    width: 80%;
+}
+
+.rest-detail p {
+    margin-top: 10px;
+}
+
+.rest-detail hr {
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}

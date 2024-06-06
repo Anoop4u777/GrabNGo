@@ -44,6 +44,9 @@ import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 
+
+import relax_rest from './relax_rest.jpg'
+
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -347,4 +350,42 @@ export const food_list = [
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
     }
+]
+
+export const rest_list = [
+    {
+        _id: "1",
+        name: "Relax rest",
+        image: relax_rest,
+        description: "Relax Restaurants offers a serene dining experience, perfect for those seeking a peaceful meal. With a calming ambiance, attentive service, and a diverse menu featuring both local and international cuisine, Relax Restaurants ensures that every visit is a delightful escape from the hustle and bustle of daily life. The stylish yet cozy interior design, coupled with carefully curated music, creates an inviting atmosphere for patrons to unwind. Whether you're looking for a quiet lunch, a romantic dinner, or a casual gathering with friends, Relax Restaurants provides the ideal setting to enjoy delicious food and relaxing moments.",
+        category: "Casual dining"
+    },
+    {
+        _id: "2",
+        name: "Relax rest 2",
+        image: relax_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Casual dining"
+    },
+    {
+        _id: "3",
+        name: "Relax rest 3",
+        image: relax_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Casual dining"
+    },
+    {
+        _id: "4",
+        name: "Relax rest 4",
+        image: relax_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Casual dining"
+    },
+    {
+        _id: "5",
+        name: "Relax rest 5",
+        image: relax_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Casual dining"
+    },
 ]
