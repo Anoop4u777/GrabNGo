@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { rest_list } from '../../assets/assets';
 import ExploreMenu from '../ExploreMenu/ExploreMenu';
 import FoodDisplay from '../FoodDisplay/FoodDisplay';
+import LeafletMap from '../LeafletMap/LeafletMap';
 
 const RestaurantDetail = () => {
   const { id } = useParams();
@@ -11,17 +12,20 @@ const RestaurantDetail = () => {
   const [category, setCategory] = useState("All");
 
   if (!restaurant) {
-    return <h2>Restaurant not found</h2>;
+    return <h1>Restaurant not found</h1>;
   }
 
   return (
     <div className='rest-detail'>
-      <h2>{restaurant.name}</h2>
+      <h1>{restaurant.name}</h1>
       <img className="rest-detail-img" src={restaurant.image} alt={restaurant.name} />
+      <h1>About us</h1>
       <p>{restaurant.description}</p>
       <hr />
       <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
+      <hr />
+      <LeafletMap latitude={restaurant.latitude} longitude={restaurant.longitude} name={restaurant.name} category={restaurant.category} location={restaurant.location}/>
     </div>
   );
 };

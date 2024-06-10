@@ -2,13 +2,16 @@
     margin: 30px 30px;
 }
 
-.rest-detail h2 {
+.rest-detail h1 {
+    font-size: max(1.8vw, 24px);
+    font-weight: 600;
     margin-bottom: 15px;
     font-size: 30px;
 }
 
 .rest-detail-img {
-    width: 80%;
+    width: 100%;
+    height: 60vh;
 }
 
 .rest-detail p {
