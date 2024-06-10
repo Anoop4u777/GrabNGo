@@ -32,18 +32,18 @@
     width: 70px;
 }
 
-.food-item-description {
+.rest-item-description {
     color: #676767;
     font-size: 12px;
 }
 
-.food-item-price {
+.rest-item-price {
     color: red;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
 }
 
-.food-item-image-container {
+.rest-item-image-container {
     position: relative;   
 }

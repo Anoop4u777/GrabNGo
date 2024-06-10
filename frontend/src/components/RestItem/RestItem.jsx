@@ -2,9 +2,8 @@ import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './RestItem.css'
 import { assets } from '../../assets/assets'
-import { StoreContext } from '../../context/StoreContext'
 
-const RestItem = ({id, name, description, image}) => {
+const RestItem = ({id, name, category, image}) => {
 
   const navigate = useNavigate();
 
@@ -19,12 +18,16 @@ const RestItem = ({id, name, description, image}) => {
       </div>
       <div className="rest-item-info">
         <div className="rest-item-name-rating">
-            <p>{name}</p>
-            <img src={assets.rating_starts} alt="" />
+            <p>
+              {name}
+              <br/>
+              {category}
+            </p>
+            {/* <img src={assets.rating_starts} alt="" /> */}
         </div>
-        <p className="rest-item-description">
+        {/* <p className="rest-item-description">
             {description}
-        </p>
+        </p> */}
       </div>
     </div>
   )

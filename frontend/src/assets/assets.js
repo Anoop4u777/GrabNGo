@@ -355,37 +355,52 @@ export const food_list = [
 export const rest_list = [
     {
         _id: "1",
-        name: "Relax rest",
+        name: "Utsav Restaurant",
         image: relax_rest,
-        description: "Relax Restaurants offers a serene dining experience, perfect for those seeking a peaceful meal. With a calming ambiance, attentive service, and a diverse menu featuring both local and international cuisine, Relax Restaurants ensures that every visit is a delightful escape from the hustle and bustle of daily life. The stylish yet cozy interior design, coupled with carefully curated music, creates an inviting atmosphere for patrons to unwind. Whether you're looking for a quiet lunch, a romantic dinner, or a casual gathering with friends, Relax Restaurants provides the ideal setting to enjoy delicious food and relaxing moments.",
-        category: "Casual dining"
+        description: "Utsav Restaurant offers a serene dining experience, perfect for those seeking a peaceful meal. With a calming ambiance, attentive service, and a diverse menu featuring both local and international cuisine, Relax Restaurants ensures that every visit is a delightful escape from the hustle and bustle of daily life. The stylish yet cozy interior design, coupled with carefully curated music, creates an inviting atmosphere for patrons to unwind. Whether you're looking for a quiet lunch, a romantic dinner, or a casual gathering with friends, Relax Restaurants provides the ideal setting to enjoy delicious food and relaxing moments.",
+        category: "North Indian Dining",
+        location: "69 Yorkville Ave, Toronto, ON M5R 1B8",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
     },
     {
         _id: "2",
-        name: "Relax rest 2",
+        name: "Pukka",
         image: relax_rest,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Casual dining"
+        category: "North Indian dining",
+        location: "778 St Clair Ave W, Toronto, ON M6C 1B6",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
     },
     {
         _id: "3",
-        name: "Relax rest 3",
+        name: "Bukhara Grill",
         image: relax_rest,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Casual dining"
+        category: "North Indian dining",
+        location: "2241a Bloor St W, Toronto, ON M6S 1N7",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
     },
     {
         _id: "4",
-        name: "Relax rest 4",
+        name: "Maja Indian Cuisine",
         image: relax_rest,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Casual dining"
+        category: "Casual Indian Dining",
+        location: "345 Bloor St E, Toronto, ON M4W 3J6",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
     },
     {
         _id: "5",
-        name: "Relax rest 5",
+        name: "Suksi's Biryani House",
         image: relax_rest,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Casual dining"
+        category: "Indian Casual dining",
+        location: "15 Hayden St, Toronto, ON M4Y 2P2",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
     },
 ]

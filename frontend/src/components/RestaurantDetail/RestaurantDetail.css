@@ -3,10 +3,11 @@
 }
 
 .rest-detail h2 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
 }
 
-.rest-detail img {
+.rest-detail-img {
     width: 80%;
 }
 
