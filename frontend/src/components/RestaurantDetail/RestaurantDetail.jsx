@@ -19,13 +19,20 @@ const RestaurantDetail = () => {
     <div className='rest-detail'>
       <h1>{restaurant.name}</h1>
       <img className="rest-detail-img" src={restaurant.image} alt={restaurant.name} />
-      <h1>About us</h1>
-      <p>{restaurant.description}</p>
+      <div className='rest-detail-desc'>
+        <div className='left-column'>
+          <h1>About us</h1>
+          <p>{restaurant.description}</p>
+        </div>
+        <div className='right column'>
+          <LeafletMap latitude={restaurant.latitude} longitude={restaurant.longitude} name={restaurant.name} category={restaurant.category} location={restaurant.location} />
+        </div>
+      </div>
+
       <hr />
       <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
       <hr />
-      <LeafletMap latitude={restaurant.latitude} longitude={restaurant.longitude} name={restaurant.name} category={restaurant.category} location={restaurant.location}/>
     </div>
   );
 };

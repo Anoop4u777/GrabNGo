@@ -46,6 +46,15 @@ import food_32 from './food_32.png'
 
 
 import relax_rest from './relax_rest.jpg'
+import utsav_rest from './utsav_restaurant.webp'
+import pukka_rest from './pukka_restaurant.jpg'
+import bukhara_grill_rest from './bukhara_grill_restaurant.webp'
+import maja_rest from './maja_restaurant.webp'
+import suksi_rest from './suksi_restuarant.jpg'
+import trio_rest from './trio_restaurant.jpg'
+import kabob_rest from './kabob_restaurant.jpg'
+import crush_rest from './crush_restaurant.jpg'
+import sole_rest from './sole_restaurant.jpeg'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -356,7 +365,7 @@ export const rest_list = [
     {
         _id: "1",
         name: "Utsav Restaurant",
-        image: relax_rest,
+        image: utsav_rest,
         description: "Utsav Restaurant offers a serene dining experience, perfect for those seeking a peaceful meal. With a calming ambiance, attentive service, and a diverse menu featuring both local and international cuisine, Relax Restaurants ensures that every visit is a delightful escape from the hustle and bustle of daily life. The stylish yet cozy interior design, coupled with carefully curated music, creates an inviting atmosphere for patrons to unwind. Whether you're looking for a quiet lunch, a romantic dinner, or a casual gathering with friends, Relax Restaurants provides the ideal setting to enjoy delicious food and relaxing moments.",
         category: "North Indian Dining",
         location: "69 Yorkville Ave, Toronto, ON M5R 1B8",
@@ -366,7 +375,7 @@ export const rest_list = [
     {
         _id: "2",
         name: "Pukka",
-        image: relax_rest,
+        image: pukka_rest,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "North Indian dining",
         location: "778 St Clair Ave W, Toronto, ON M6C 1B6",
@@ -376,7 +385,7 @@ export const rest_list = [
     {
         _id: "3",
         name: "Bukhara Grill",
-        image: relax_rest,
+        image: bukhara_grill_rest,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "North Indian dining",
         location: "2241a Bloor St W, Toronto, ON M6S 1N7",
@@ -386,7 +395,7 @@ export const rest_list = [
     {
         _id: "4",
         name: "Maja Indian Cuisine",
-        image: relax_rest,
+        image: maja_rest,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Casual Indian Dining",
         location: "345 Bloor St E, Toronto, ON M4W 3J6",
@@ -396,10 +405,50 @@ export const rest_list = [
     {
         _id: "5",
         name: "Suksi's Biryani House",
-        image: relax_rest,
+        image: suksi_rest,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Indian Casual dining",
         location: "15 Hayden St, Toronto, ON M4Y 2P2",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
+    },
+    {
+        _id: "6",
+        name: "Trio Restaurant",
+        image: trio_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Canadian Cuisine",
+        location: "40 King St S, Waterloo, ON N2J 2W8",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
+    },
+    {
+        _id: "7",
+        name: "Kabob Shack",
+        image: kabob_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Canadian Cuisine",
+        location: "150 University Ave W Unit 5B, Waterloo",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
+    },
+    {
+        _id: "8",
+        name: "Crush Social Eatery",
+        image: crush_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Canadian Cuisine",
+        location: "170 University Ave W Unit 15-18, Waterloo",
+        latitude: "43.6656459",
+        longitude: "-80.6270745"
+    },
+    {
+        _id: "9",
+        name: "Solé Uptown",
+        image: sole_rest,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Canadian Cuisine",
+        location: "83 Erb St. W Building Two, Waterloo",
         latitude: "43.6656459",
         longitude: "-80.6270745"
     },

@@ -10,6 +10,7 @@
 .rest-item-image {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    aspect-ratio: 16/12;
 }
 
 .rest-item-info {
