@@ -28,11 +28,9 @@ const RestaurantDetail = () => {
           <LeafletMap latitude={restaurant.latitude} longitude={restaurant.longitude} name={restaurant.name} category={restaurant.category} location={restaurant.location} />
         </div>
       </div>
-
       <hr />
       <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
-      <hr />
     </div>
   );
 };

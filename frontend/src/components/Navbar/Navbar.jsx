@@ -7,17 +7,17 @@ import { StoreContext } from '../../context/StoreContext'
 
 const Navbar = ({setShowLogin}) => {
 
-    const [menu, setMenu] = useState('home');
+    const [menu, setMenu] = useState('Home');
     const {getTotalCartAmount} = useContext(StoreContext);
   return (
     <div className='navbar'>
       <Link to='/'><img src={assets.logo} alt='Grab N Go' className='logo' /></Link>
       <ul className='navbar-menu'>
-      <Link to='/'><li onClick={()=>setMenu('home')} className={menu==='home'?'active':''}>home</li></Link>
-        <Link to='/restaurant'><li onClick={()=>setMenu('restaurants')} className={menu==='restaurants'?'active':''}>restaurants</li></Link>
-        <li onClick={()=>setMenu('mobile-app')} className={menu==='mobile-app'?'active':''}>mobile-app</li>
-        <li onClick={()=>setMenu('contact-us')} className={menu==='contact-us'?'active':''}>contact-us</li>
-        <li onClick={()=>setMenu('about-us')} className={menu==='about-us'?'active':''}>about-us</li>
+      <Link to='/'><li onClick={()=>setMenu('Home')} className={menu==='Home'?'active':''}>Home</li></Link>
+        <Link to='/restaurant'><li onClick={()=>setMenu('Restaurants')} className={menu==='Restaurants'?'active':''}>Restaurants</li></Link>
+        <li onClick={()=>setMenu('Mobile-App')} className={menu==='Mobile-App'?'active':''}>Mobile-App</li>
+        <li onClick={()=>setMenu('Contact-Us')} className={menu==='Contact-Us'?'active':''}>Contact-Us</li>
+        <li onClick={()=>setMenu('About-Us')} className={menu==='About-Us'?'active':''}>About-Us</li>
       </ul>
       <div className='navbar-right'>
         <img src={assets.search_icon} alt='search' />

@@ -45,7 +45,6 @@ import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 
 
-import relax_rest from './relax_rest.jpg'
 import utsav_rest from './utsav_restaurant.webp'
 import pukka_rest from './pukka_restaurant.jpg'
 import bukhara_grill_rest from './bukhara_grill_restaurant.webp'
@@ -55,6 +54,10 @@ import trio_rest from './trio_restaurant.jpg'
 import kabob_rest from './kabob_restaurant.jpg'
 import crush_rest from './crush_restaurant.jpg'
 import sole_rest from './sole_restaurant.jpeg'
+
+import on_demand from './on-demand.png'
+import simple_payment from './simple-payment-methods.jpg'
+import rating_review from './rating-reviews.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -91,7 +94,10 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    on_demand,
+    simple_payment,
+    rating_review
 }
 
 export const menu_list = [
@@ -376,7 +382,7 @@ export const rest_list = [
         _id: "2",
         name: "Pukka",
         image: pukka_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "North Indian dining",
         location: "778 St Clair Ave W, Toronto, ON M6C 1B6",
         latitude: "43.6656459",
@@ -386,7 +392,7 @@ export const rest_list = [
         _id: "3",
         name: "Bukhara Grill",
         image: bukhara_grill_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "North Indian dining",
         location: "2241a Bloor St W, Toronto, ON M6S 1N7",
         latitude: "43.6656459",
@@ -396,7 +402,7 @@ export const rest_list = [
         _id: "4",
         name: "Maja Indian Cuisine",
         image: maja_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "Casual Indian Dining",
         location: "345 Bloor St E, Toronto, ON M4W 3J6",
         latitude: "43.6656459",
@@ -406,7 +412,7 @@ export const rest_list = [
         _id: "5",
         name: "Suksi's Biryani House",
         image: suksi_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "Indian Casual dining",
         location: "15 Hayden St, Toronto, ON M4Y 2P2",
         latitude: "43.6656459",
@@ -416,7 +422,7 @@ export const rest_list = [
         _id: "6",
         name: "Trio Restaurant",
         image: trio_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "Canadian Cuisine",
         location: "40 King St S, Waterloo, ON N2J 2W8",
         latitude: "43.6656459",
@@ -426,7 +432,7 @@ export const rest_list = [
         _id: "7",
         name: "Kabob Shack",
         image: kabob_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "Canadian Cuisine",
         location: "150 University Ave W Unit 5B, Waterloo",
         latitude: "43.6656459",
@@ -436,7 +442,7 @@ export const rest_list = [
         _id: "8",
         name: "Crush Social Eatery",
         image: crush_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "Canadian Cuisine",
         location: "170 University Ave W Unit 15-18, Waterloo",
         latitude: "43.6656459",
@@ -446,7 +452,7 @@ export const rest_list = [
         _id: "9",
         name: "Solé Uptown",
         image: sole_rest,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         category: "Canadian Cuisine",
         location: "83 Erb St. W Building Two, Waterloo",
         latitude: "43.6656459",

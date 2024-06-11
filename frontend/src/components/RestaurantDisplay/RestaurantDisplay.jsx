@@ -6,8 +6,8 @@ import RestItem from '../RestItem/RestItem'
 const RestaurantDisplay = ({count}) => {
   let new_rest_list;
   if (count){
-    new_rest_list = rest_list
-    new_rest_list = new_rest_list.slice(0, 3)
+    new_rest_list = rest_list.reverse()
+    new_rest_list = new_rest_list.slice(0, 6)
   } else {
     new_rest_list = rest_list
   }

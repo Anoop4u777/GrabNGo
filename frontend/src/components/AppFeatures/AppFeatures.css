@@ -1,0 +1,26 @@
+.app-features-main {
+    margin: 30px 0;
+    padding: 40px 40px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #00000015;
+}
+
+h1 {
+    text-align: center;
+}
+
+.app-features-first, .app-features-second, .app-features-third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-container,
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 80%;
+}
