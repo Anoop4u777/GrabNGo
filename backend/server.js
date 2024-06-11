@@ -27,7 +27,7 @@ app.use("/api/food", foodRouter);
 
 
 
-// end point to ge the images.
+// end point to get the images.
 app.use("/images", express.static("uploads"))
 
 
