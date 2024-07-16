@@ -8,6 +8,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import LoginPopup from './components/LoginPopup/LoginPopup.jsx'
 import RestaurantDetail from './components/RestaurantDetail/RestaurantDetail.jsx'
+import Verify from './pages/Verify/Verify.jsx'
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/restaurant' element={<Restaurant />} />
           <Route path="/restaurant/:id" element={<RestaurantDetail />} />
+          <Route path="/verify" element={<Verify />} />
         </Routes>
       </div>
       <Footer />
