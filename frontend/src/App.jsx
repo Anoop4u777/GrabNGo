@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer.jsx'
 import LoginPopup from './components/LoginPopup/LoginPopup.jsx'
 import RestaurantDetail from './components/RestaurantDetail/RestaurantDetail.jsx'
 import Verify from './pages/Verify/Verify.jsx'
+import MyOrders from './pages/MyOrders/MyOrders.jsx'
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/restaurant' element={<Restaurant />} />
           <Route path="/restaurant/:id" element={<RestaurantDetail />} />
           <Route path="/verify" element={<Verify />} />
+          <Route path="/myorders" element={<MyOrders />} />
         </Routes>
       </div>
       <Footer />
