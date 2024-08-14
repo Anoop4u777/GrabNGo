@@ -24,8 +24,8 @@ const Navbar = ({setShowLogin}) => {
       <Link to='/'><li onClick={()=>setMenu('Home')} className={menu==='Home'?'active':''}>Home</li></Link>
       <Link to='/restaurant'><li onClick={()=>setMenu('Restaurants')} className={menu==='Restaurants'?'active':''}>Restaurants</li></Link>
       <Link to='/mobile'><li onClick={()=>setMenu('Mobile-App')} className={menu==='Mobile-App'?'active':''}>Mobile</li></Link>
-        <li onClick={()=>setMenu('Contact-Us')} className={menu==='Contact-Us'?'active':''}>Contact-Us</li>
-        <li onClick={()=>setMenu('About-Us')} className={menu==='About-Us'?'active':''}>About-Us</li>
+      <Link to='/about'><li onClick={()=>setMenu('About-Us')} className={menu==='About-Us'?'active':''}>About Us</li></Link>
+      <Link to='/contact'><li onClick={()=>setMenu('Contact-Us')} className={menu==='Contact-Us'?'active':''}>Contact Us</li></Link>
       </ul>
       <div className='navbar-right'>
         <img src={assets.search_icon} alt='search' />

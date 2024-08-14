@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home.jsx'
 import Cart from './pages/Cart/Cart.jsx'
 import MobileApp from './pages/Mobile-App/Mobile-App.jsx'
+import AboutUs from './pages/AboutUs/AboutUs.jsx'
+import ContactUs from './pages/ContactUs/ContactUs.jsx'
 import Restaurant from './pages/Restaurant/Restaurant.jsx'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder.jsx'
 import Footer from './components/Footer/Footer.jsx'
@@ -25,6 +27,8 @@ const App = () => {
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/mobile' element={<MobileApp />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/contact' element={<ContactUs />} />
           <Route path='/restaurant' element={<Restaurant />} />
           <Route path="/restaurant/:id" element={<RestaurantDetail />} />
           <Route path="/verify" element={<Verify />} />

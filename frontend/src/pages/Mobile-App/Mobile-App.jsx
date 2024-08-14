@@ -7,7 +7,6 @@ const MobileApp = () => {
   
   return (
     <div className='mobile-page'>
-      <AppFeatures />
       <AppDownload />
     </div>
   )
