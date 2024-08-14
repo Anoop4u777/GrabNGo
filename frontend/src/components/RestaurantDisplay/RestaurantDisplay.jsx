@@ -13,7 +13,7 @@ const RestaurantDisplay = ({count}) => {
   }
   return (
     <div className='rest-display' id="rest-dsiplay">
-      <h2>Our Restaurants around you</h2>
+      <h2 style={{textAlign: 'center'}}>Our Restaurants around you</h2>
       <div className='rest-display-list'>
         {new_rest_list.map((item, index)=>{
             return <RestItem key={index} id={item._id} name={item.name} category={item.category} image={item.image}/>
